@@ -24,3 +24,5 @@ function Torch(props: { enabled: boolean }) {
 		!enabled ? <View /> : <Camera style={{ width: 1, height: 1 }} type={type} flashMode={'torch'} />
 	);
 }
+
+module.export = Torch
