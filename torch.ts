@@ -25,4 +25,4 @@ function Torch(props: { enabled: boolean }) {
 	);
 }
 
-module.export = Torch
+module.exports = Torch
